@@ -3,20 +3,20 @@
 # Autor: DHANNA IGNACIO
 # ===========================================
 
-saldo = 20000
-pin_correcto = "9012"
+saldo = 6900
+pin_correcto = "3456"
 
 print("===================================")
-print("     CAJERO BANCO INTERBANK")
+print("     CAJERO DEL BANCO BBVA")
 print("===================================")
 
-pin = input("Ingresar PIN: ")
+pin = input("Por favor ingrese su PIN: ")
 
 if pin == pin_correcto:
 
     while True:
 
-        print("\n===== MENÚ =====")
+        print("\n===== MENÚ PRINCIPAL =====")
         print("1. Consultar saldo")
         print("2. Retirar dinero")
         print("3. Depositar dinero")
